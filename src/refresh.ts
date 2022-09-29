@@ -7,7 +7,7 @@ function sup0(num: number, digits: number): string {
     var s = num.toString();
     if (s.length >= digits) { return s; }
     var ret = "";
-    for (let i = s.length; i < digits; ++i) { ret += " "; }
+    for (let i = s.length; i < digits; ++i) { ret += "0"; }
     return ret + s;
 }
 

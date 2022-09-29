@@ -11,7 +11,7 @@ function sup0(num, digits) {
     }
     var ret = "";
     for (var i = s.length; i < digits; ++i) {
-        ret += " ";
+        ret += "0";
     }
     return ret + s;
 }
